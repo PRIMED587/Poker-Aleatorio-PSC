@@ -1,5 +1,115 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: url("https://img.freepik.com/vector-premium/diseno-grafico-ejemplo-vector-fondo-modelo-casino_24640-14344.jpg");
+    background-size: cover;
 }
+
+.pokercard {
+    display: flex ;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 500px;
+    margin-left: 350px;
+    border: 1px solid rgba(223, 235, 251, 0.821);
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 5px 5px  black; 
+}
+
+.pokercard:hover {
+    transition: 3.s linear;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px aliceblue, 0 0 5px aliceblue, 0 0 
+    5px, 0 0 5px rgb(10, 10, 10), 0 0 5px aliceblue;
+}
+
+#number {
+    user-select: none;
+}
+
+#number { 
+    display: flex;
+    align-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 100px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px
+    
+
+    
+
+}
+#topsim {
+    user-select: none;
+}
+#topsim {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: 500px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 5px;
+    border-radius: 10px;
+    
+    
+
+}
+
+#backsim {
+    user-select: none;
+}
+
+#backsim {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    margin: auto;
+    margin-right: 7;
+    margin-top: 330px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    
+   
+
+}
+
+#container {
+    display: flex ;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid rgb(220, 219, 219);
+    border-radius: 40%;
+    width: 50%;
+    height: 800px;
+    background: url("https://media.istockphoto.com/id/184350609/vector/vector-playing-card-suits.jpg?s=612x612&w=0&k=20&c=2NPTK4NCcSyJaTznIX1VpAQ0DmLMUk19jTlScuCXAeY=");
+    background-size: cover;
+}
+
+#pokerbg {
+    width: 100%;
+
+}
+
+.buttoncard {
+    color: rgb(233, 233, 233);
+    background: linear-gradient(to right, rgb(24, 23, 23), rgb(123, 3, 3));
+    border: 2px solid rgba(255, 255, 255, 0.923);
+    font-size: 30px;
+    margin-top: 370px;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 25px 25px  black;
+    
+    
+}
+
